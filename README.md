@@ -7,24 +7,24 @@ It is an online web application built for taking attendance by recognizing the f
 Face recognition is a crucial security application. Through this project, a very basic form of face recognition has been implemented using the Haar Cascades Classifier, openCV & K-Nearest Neighbors Algorithm.
 ## Login Page
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](https://github.com/rabahalishah/AttendEase/assets/117630286/ef5e31cc-b0f0-4f62-b966-169095398d65)
 
 ## Home Page
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](https://github.com/rabahalishah/AttendEase/assets/117630286/07f17c5e-9215-4696-9075-ca2652ef4737)
 
 ## Capturing Facial Expressions
 
 Capturing my expression as I am registering myself as a new member.
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](https://github.com/rabahalishah/AttendEase/assets/117630286/cb78ba7d-dd5c-417d-b96b-0aab876a232c)
 
 
 ## Successfully Recognized
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](https://github.com/rabahalishah/AttendEase/assets/117630286/1b26afbc-e829-4836-bd58-0f8a2fcd2130)
 ## Attendance Marked
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](https://github.com/rabahalishah/AttendEase/assets/117630286/1cc73444-282d-4f25-acea-4fa3f739aa76)
 
 
 ## Built With
@@ -71,7 +71,10 @@ Following are some easy steps you have to follow to run this project in your mac
 ```bash
   flask run
 ```
+### Credentials
+ID: admin
 
+Password: 1234
 ## Contributing
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated
 
