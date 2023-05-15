@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="{{ url_for('static', filename='myfavicon.ico') }}">
+  <title>Login Page</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background-image: url('https://th.bing.com/th/id/R.8701a0f523bcf43ccfd41f65bf05c694?rik=f7W4upyUfdtGlQ&pid=ImgRaw&r=0');
+      background-size: cover;
+      height: 100vh;
+    }
+
+    .container {
+      margin: 0 auto;
+      max-width: 400px;
+      padding-top: 50px;
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 30px;
+      color: #fff;
+    }
+
+    input[type="text"],
+    input[type="password"] {
+      display: block;
+      width: 100%;
+      margin: 10px 0;
+      padding: 10px;
+      font-size: 16px;
+      border-radius: 5px;
+      border: none;
+    }
+
+    input[type="submit"] {
+      display: block;
+      width: 100%;
+      margin: 10px 0;
+      padding: 10px;
+      font-size: 16px;
+      font-weight: bold;
+      border-radius: 5px;
+      border: none;
+      background-color: #4CAF50;
+      color: #fff;
+    }
+
+    .error-message {
+      color: #f00;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+
+<body>
+  <img src="static/ASME_logo.png" alt="ASME Logo" style="display: block; margin: 0 auto; width:20%; height:25%;">
+
+  <h1 style=" width: auto; margin: auto;color: white;padding: 11px;font-size: 44px;  margin-top: 50px; ">Welcome to ASME
+    Smart Attendance
+    Portal</h1>
+  <div class="container">
+
+    <h1>Login</h1>
+    <form action="submit_form" id="login-form" method="post">
+      <label for="username" style="color: white">Username</label>
+      <input type="text" id="username" name="username" required>
+      <label for="password" style="color: white">Password</label>
+      <input type="password" id="password" name="password" required>
+      <input type="submit" value="Login">
+      <p class="error-message" id="error-message"></p>
+    </form>
+  </div>
+  <script>
+    const form = document.getElementById('login-form');
+    const username = document.getElementById('username');
+    const password = document.getElementById('password');
+    const errorMessage = document.getElementById('error-message');
+
+    form.addEventListener('submit', (event) => {
+      event.preventDefault();
+
+      // replace the condition with the actual authentication check in your application
+      if (username.value === 'asmechapternust' && password.value === 'vdvy09j') {
+        window.location.href = '/dashboard'; // replace with the actual URL of the dashboard page
+      } else {
+        errorMessage.textContent = 'Invalid username or password.';
+      }
+    });
+  </script>
+  <footer style="
+    background-color: transparent;
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+  ">
+    <p>Developed by Chief Technical ASME &#174; All rights reserved &copy;</p>
+  </footer>
+</body>
+
+</html>
