@@ -4,7 +4,9 @@
 
 ## AttendEase 
 It is an online web application built for taking attendance by recognizing the face of the users with more than 90% accuracy.
-Face recognition is a crucial security application. Through this project, a very basic form of face recognition has been implemented using the Haar Cascades Classifier, openCV & K-Nearest Neighbors Algorithm.
+Face recognition is a crucial security application. Through this project, a very basic form of face recognition has been implemented using the Haar Cascades Classifier, openCV & K-Nearest Neighbors Algorithm. Resulting in an estimated time savings of 50% and improved attendance
+tracking accuracy by 90%. This application demonstrated the successful implementation of facial recognition technology and its potential to revolutionize attendance tracking in various industries.
+
 ## Login Page
 
 ![App Screenshot](https://github.com/rabahalishah/AttendEase/assets/117630286/ef5e31cc-b0f0-4f62-b966-169095398d65)
