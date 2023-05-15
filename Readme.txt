@@ -1,5 +1,5 @@
-face-recognition-based-attendance-system
-
+Face Recognition Based Attendance System
+Following are the steps to run thsi app in your PC
 1. python -m venv myvenv
 2. pip install -r requirements.txt
 3. python -m flask
