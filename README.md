@@ -31,8 +31,10 @@ Capturing my expression as I am registering myself as a new member.
 
 ## Built With
 
-![Logo](https://www.p92.hu/binaries/content/gallery/p92website/technologies/htmlcssjs-details.png)
-![Logo](https://res.cloudinary.com/practicaldev/image/fetch/s--Y19O2Ab3--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://thepracticaldev.s3.amazonaws.com/i/pfftroqy6k915lu968u9.JPG)
+
+<img src="https://www.p92.hu/binaries/content/gallery/p92website/technologies/htmlcssjs-details.png" width="350"/>
+
+<img src="https://res.cloudinary.com/practicaldev/image/fetch/s--Y19O2Ab3--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://thepracticaldev.s3.amazonaws.com/i/pfftroqy6k915lu968u9.JPG" width="250" />
 
 
 # Getting Started
